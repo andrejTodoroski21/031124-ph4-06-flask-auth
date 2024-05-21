@@ -20,7 +20,7 @@ function App() {
 
       <h1>Authentication + Authorization</h1>
 
-      <UserPanel currentUser={currentUser} />
+      <UserPanel currentUser={currentUser} setCurrentUser={setCurrentUser}/>
 
       <Notes />
 
